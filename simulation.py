@@ -15,9 +15,9 @@ if __name__ == '__main__':
     ### Ensemble Kalman initialization
     # TODO : modify Ne for differents tests
     visu_live = False
-    Ne = 200  # number of members or particles depends on the filter
-    nb = 300  # number of
-    dT = 0.1
+    Ne = 50  # number of members or particles depends on the filter
+    nb = 300  # number of time step
+    dT = 0.1 # length of a time step
     x_initial, y_initial, vx_initial, vy_initial = 0, -6, 3, 0  # m, m, m/s, m/s
     var_x_model, var_y_model, var_vx_model, var_vy_model = 0.05, 0.05, 0.05, 0.05  # m, m, m/s, m/s
     initial_state, initial_incert = np.array([x_initial, y_initial, vx_initial, vy_initial]).T, np.diag(
