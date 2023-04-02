@@ -2,17 +2,8 @@ from enkf_particle_filter import *
 
 if __name__ == '__main__':
     ### There we configure the simulation and launch items
-<<<<<<< HEAD
-<<<<<<< HEAD
-    ## modif de 15:22 02/04/2023
-=======
     ## modif de 16:39 02/04/2023
->>>>>>> chgt_params_simu
-    method_used = "Kalman"  # "Particle" ou "Kalman"
-=======
-    
-    method_used = "Particle"  # "Particle" ou "Kalman"
->>>>>>> parent of a123230 (Changement params : nombre de membres du EnKF)
+    method_used = "Kalman"  # "Particle" ou "Kalman"  
     n = 4
     p = 3
     var_R = 0.01  # m/s
