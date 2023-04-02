@@ -2,7 +2,7 @@ from enkf_particle_filter import *
 
 if __name__ == '__main__':
     ### There we configure the simulation and launch items
-    ## modified on 17:00 02/04/2023
+    ## modified on 17:07 02/04/2023
     method_used = "Kalman"  # "Particle" ou "Kalman"  
     n = 4
     p = 3
